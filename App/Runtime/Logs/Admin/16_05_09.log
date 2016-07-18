@@ -1,0 +1,23 @@
+[ 2016-05-09T17:36:35+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 非法操作:search
+
+[ 2016-05-09T17:42:22+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 1054:Champ 'Array' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_user` WHERE ( username = Array ) 
+
+[ 2016-05-09T17:42:49+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 1054:Champ 'Array.search' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_user` WHERE ( username = Array.search ) 
+
+[ 2016-05-09T17:43:23+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 1054:Champ 'Array.search' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_user` WHERE ( username = Array.search ) 
+
+[ 2016-05-09T17:44:02+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `jyx_user` WHERE ( username =  ) 
+
+[ 2016-05-09T17:51:19+08:00 ] ::1 /jiyexiang/index.php/Admin/User/search.html
+ERR: 1054:Champ 'admin' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_user` WHERE ( username=admin ) 
+

@@ -1,0 +1,30 @@
+[ 2016-07-10T10:03:35+08:00 ] ::1 /jiyexiang/Log/checkuser.jyx?user_rname=huagege
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = 'huagege' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002440s ]
+
+[ 2016-07-10T10:03:55+08:00 ] ::1 /jiyexiang/Log/checkemail.jyx?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2016-07-10T10:03:59+08:00 ] ::1 /jiyexiang/Log/checkemail.jyx?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+

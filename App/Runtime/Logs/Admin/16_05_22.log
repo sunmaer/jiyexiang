@@ -1,0 +1,44 @@
+[ 2016-05-22T14:22:04+08:00 ] ::1 /jiyexiang/index.php/Admin/User/approve.html
+ERR: 模板不存在:./App/Admin/View/User/approve.html
+
+[ 2016-05-22T20:27:17+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/index.html
+ERR: 1146:La table 'jiyexiang.jyx_color' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_color`
+
+[ 2016-05-22T20:28:04+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/index.html
+ERR: 1146:La table 'jiyexiang.jyx_mftprice' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_mftprice`
+
+[ 2016-05-22T21:30:27+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/11.html
+ERR: 1054:Champ '　11' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id =　11 ) LIMIT 1  
+
+[ 2016-05-22T21:31:07+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/11.html
+ERR: 1054:Champ '　11' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id =　11 ) 
+
+[ 2016-05-22T21:56:33+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsat.html
+ERR: 非法操作:altforsat
+
+[ 2016-05-22T21:56:56+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsat.html
+ERR: 非法操作:altforsat
+
+[ 2016-05-22T21:56:58+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsat.html
+ERR: 非法操作:altforsat
+
+[ 2016-05-22T21:57:01+08:00 ] ::1 /jiyexiang/index.php/Admin/Marterial/altforsat.html
+ERR: 无法加载控制器:Marterial
+
+[ 2016-05-22T21:57:29+08:00 ] ::1 /jiyexiang/index.php/Admin/Marterial/altforsat.html
+ERR: 无法加载控制器:Marterial
+
+[ 2016-05-22T21:57:32+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsat.html
+ERR: 非法操作:altforsat
+
+[ 2016-05-22T21:57:46+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsat.html
+ERR: 非法操作:altforsat
+
+[ 2016-05-22T22:14:59+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altforsta.html
+ERR: 1054:Champ 'Array' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `jyx_formulate` SET `status`=NULL WHERE `id` = Array
+

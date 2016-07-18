@@ -1,0 +1,27 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理员登录</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="/jiyexiang/Public/css/login.css">
+</head>
+<body>
+	<div id="container">
+		<div id="form">
+			<p><span class="word-hidden">后台管理系统</p>
+			<form id="signupForm" action="<?php echo U('Admin/login');?>" method="post">
+			<div class="item">
+				<label for="user_name"><span class="icon icon-name"></span></label>
+				<input type="text" id="user_name" name="user" placeholder="管理员账号" />
+			</div>
+			<div class="item">
+				<label for="user_pwd"><span class="icon icon-pwd"></span></label>
+				<input type="password" id="user_pwd" name="password" placeholder="登录密码"/>
+			</div>
+				<input type="submit" value="登&nbsp;&nbsp;录">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

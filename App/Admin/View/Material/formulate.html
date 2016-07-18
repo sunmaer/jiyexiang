@@ -1,0 +1,59 @@
+<include file="Public:header"/>
+	<div class="wrapper">
+		<p class="title">公式说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />你可以在本版块修改、删除、添加公式。
+			<p>请在修改前做好数据库备份，以免错乱无法恢复；</p>
+			<p>用户输入的数据（箱高，箱厚，塑粉颜色等关键字）不能改变；</p>
+			<p>现有公式请谨慎删除，因为相应配置项（锁类型，产品型号等会影响客户端计算页面显示），如有变动请修改其比较符号、比较条件、比较结果，勿对条件对象及判定项做修改，若对前台页面显示无影响可修改；</p>
+			<p>添加公式后，累加项改变，记得为添加公式后的所有公式的先后计算顺序排序，特别注意累加项的计算顺序；</p>
+			<p>添加公式应保证其左右括号匹配完整性，只能使用小括号（‘（）’），不区分中英文！公式运算符只支持’+-*/‘,请勿使用其他运算符号；</p>
+			<p>在配置不变常量时，注意非判定项要与公式中的项名一致，在配置判定量时，判定项要与公式中的项名一致，比较条件符号只支持“'<=','>=','=','<','>'”这五种,并且一个判定项的比较运算符只能选择一种,条件对象为客户输入的对象（箱高，箱厚，锁类型等），名称要一致，比较结果为判定后取值。特别注意：配置项要与公式中的项名一致，条件对象要与客户的输入集合中的名一致，注意多条判断的先后顺序逻辑性，逻辑错误可能导致最终取值错误！</p>
+		</div>
+	</div>
+	<div class="wrapper">
+		<p class="title">现用公式</p>
+		<div class="info">
+			<form id="form" action="{:U('Material/altforsta')}" method="post" >
+				<foreach name="for" item="vo" key="k">
+					<div class="formula">
+						{$vo['name']}:<strong>{$vo['formulate']}</strong><br>
+						<input type="text" name="id[]" value="{$vo['id']}" style="display: none;" />
+						<span>计算顺序：</span><input type="text" name="corder[]" value="{$vo['corder']}"><br>	
+							<span>使用状态：</span><select id="sta" name="sta[]">
+							<option value="1">是</option>
+							<option value="0">否</option>
+						</select><br>
+						<a href="{:U('Material/altonefor',array('id'=>$vo['id']))}">修改公式</a>
+						<a href="{:U('Material/delonefor',array('id'=>$vo['id']))}">删除公式</a><br>
+					</div>
+				</foreach>
+			<button class="xiugai">修改</button>
+			</form>
+		</div>
+		</div>
+		<div class="wrapper">
+			<p class="title">添加公式</p>
+			<div class="formula-info">
+			<form action="{:U('addfor')}" method="post">
+				<span>计算式名称：</span><input type="text" name="name"></input><br>
+				<span>计算式：</span><textarea name="formulate"></textarea><br>
+				<button type="submit">添加</button><br>
+			</form>
+			</div>
+		</div>
+<include file="Public:footer"/>
+<script type="text/javascript">
+	var arr=<?php echo json_encode($for);?>;
+	var sta=[];
+	for (var i = 0; i < arr.length; i++) {
+		sta[i]=arr[i]['status'];
+	var f=document.getElementById("form").getElementsByTagName("select");
+		if ( sta[i]==0) {
+			f[i][1].selected = true;
+		}else{
+			f[i][0].selected = true;
+		}
+	}
+</script>

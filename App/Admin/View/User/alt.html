@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	li{
+		list-style: none;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<form action="{:U('User/doalt',array('id'=>$data['id']))}" method="post">
+			<ul>
+				<li>id:{$data['id']}</li>
+				<li>用户名：{$data['username']}</li>
+				<li>密码：<input type="text" name="password" /></li>
+				<li>状态：<input type="text" name="status" value="{$data['status']}"  /></li>
+				<li>姓名：{$data['name']}</li>
+				<li>邮箱：{$data['email']}</li>
+				<li>QQ:{$data['qq']}</li>
+				<li>地址：{$data['address']}</li>
+				<li>微信：{$data['wechat']}</li>
+				<li>公司：{$data['companyname']}{$data['companyphone']}</li>
+				<li></li>
+				<li><button type="submit">修改</button></li>
+
+			</ul>
+		</form>
+	</div>
+</body>
+</html>

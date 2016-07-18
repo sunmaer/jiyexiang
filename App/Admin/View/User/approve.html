@@ -1,0 +1,77 @@
+<include file="Public:header"/>
+	<div class="wrapper">
+		<p class="title">版块说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />
+			你可以在本版块查看未审批用户信息，可以按特定条件对用户进行查询。你还可以对未审核用户进行审核、修改、删除操作。
+			<br />如果你需要添加用户，请点击 <a href="{:U('User/adduser')}" class="link">添加用户</a>
+		</div>
+	</div>
+	<div class="alluser-search">
+	<form action="{:U('User/approve')}" method="post">
+			<span class="icon-search"></span><input type="text" placeholder="输入注册账号或者客户姓名或者邮箱" name="search"/><input type="submit" value="搜索" />
+	</form>
+	</div>
+	<form  action="{:U('User/doapprove')}" method="post"> 
+	<table class="alluser-table">
+		<tr>
+			<th class="alluser-xuanze xuanzehidden">选择</th>
+			<th class="rname">注册账号</th>
+			<th class="alluser-name namehidden">客户姓名</th>
+			<th class=" comnamehidden">公司名称</th>
+			<th class=" comphonehidden">公司电话</th>
+			<th class=" phonehidden">手机号码</th>
+			<th class=" qqhidden">QQ号</th>
+			<th class=" weixinhidden">微信号</th>
+			<th class="alluser-shenhe">状态</th>
+			<th class="alluser-caozuo">操作</th>
+		</tr>
+		<foreach name="data" item="vo" key="k">
+		<tr>
+			<td class="xuanzehidden"><input type="checkbox" name="id[]" value="{$vo.id}" class="alluser-choose"/></td>
+			<td>{$vo.username}</td>
+			<td class="namehidden">{$vo.name}</td>
+			<td class=" comnamehidden">{$vo.companyname}</td>
+			<td class=" comphonehidden">{$vo.companyphone}</td>
+			<td class=" phonehidden">{$vo.selfphone}</td>
+			<td class=" qqhidden">{$vo.qq}</td>
+			<td class=" weixinhidden">{$vo.wechat}</td>
+			<td>
+				<span class="alluser-verify alluser-abutton">未审核</span>
+			</td>
+			<td>
+				<a href="{:U('User/alteruser',array('id'=>$vo['id']))}"><span class="alluser-icon icon-alter" title="修改用户信息"></span></a>
+				<a href="{:U('User/deluser',array('id'=>$vo['id']))}"><span class="alluser-icon icon-delete" title="删除用户" ></span></a>
+			</td>
+		</tr>
+		</foreach>
+	</table>
+	<div class="tfoot">
+			<div class="lothidden lot">
+				<input type="checkbox" name="id[]" onclick="selectAll()" title="全选/全不选" />
+				<button type="submit"><span class="alluser-icon icon-lotshenhe" title="批量审核用户"></span></button>
+			</div>
+			<div class="page">
+				{$page}
+			</div>
+	</div>
+	</form>
+<script type="text/javascript">
+ 	function selectAll(){
+		var a = document.getElementsByTagName("input");
+		if(a[0].checked){
+			for(var i = 0;i<a.length;i++){
+				if(a[i].type == "checkbox") 
+				a[i].checked = false;
+			}
+		}
+		else{
+			for(var i = 0;i<a.length;i++){
+				if(a[i].type == "checkbox") 
+				a[i].checked = true;
+			}
+		}
+	}
+</script>
+<include file="Public:footer"/>

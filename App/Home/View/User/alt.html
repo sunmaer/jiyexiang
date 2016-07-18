@@ -1,0 +1,102 @@
+<include file="Public:header"/>
+<form id="user_info" action="{:U('User/doalt')}" method="post">
+	<div class="item">
+		<label for="user_rname" action="{:U('Log/doalt',array('id'=>$data['id']))}" method="post">
+		<div class="user-input">
+			<span class="icon3 icon-rname"></span>
+			<span class="info-word">注册账号</span>
+		</div>
+	</label>
+	<input type="text" id="user_rname" readonly  name="username" value="{$data['username']}" />
+	</div>
+	<div class="item">
+		<label for="user_name">
+		<div class="user-input">
+			<span class="icon3 icon-name"></span>
+			<span class="info-word"><em>*</em>客户姓名</span>
+		</div>
+	</label>
+	<input type="text" id="user_name"  name="name" value="{$data['name']}" />
+	</div>
+	<div class="item">
+		<label for="user_comname">
+		<div class="user-input">
+			<span class="icon3 icon-comname"></span>
+			<span class="info-word">公司名称</span>
+		</div>
+	</label>
+	<input type="text" id="user_comname" name="companyname" value="{$data['companyname']}" />
+	</div>
+	<div class="item">
+		<label for="user_comphone">
+		<div class="user-input">
+			<span class="icon3 icon-comphone"></span>
+			<span class="info-word">公司电话</span>
+		</div>
+	</label>
+	<input type="text" id="user_comphone" name="companyphone" value="{$data['companyphone']}"/>
+	</div>
+	<div class="item">
+		<label for="user_address">
+		<div class="user-input">
+			<span class="icon3 icon-address"></span>
+			<span class="info-word">地址</span>
+		</div>
+	</label>
+	<input type="text" id="user_address" name="address" value="{$data['address']}" />
+	</div>
+	<div class="item">
+		<label for="user_phone">
+		<div class="user-input">
+			<span class="icon3 icon-phone"></span>
+			<span class="info-word"><em>*</em>手机号码</span>
+		</div>
+	</label>
+	<input type="text" id="user_phone"  name="selfphone" value="{$data['selfphone']}" />
+	</div>
+	<div class="item">
+		<label for="user_email">
+		<div class="user-input">
+			<span class="icon3 icon-email"></span>
+			<span class="info-word"><em>*</em>邮箱</span>
+		</div>
+	</label>
+	<input type="text" id="user_email" onblur="checkEmail()" name="email" value="{$data['email']}"/>
+	</div>
+	<div class="item">
+		<label for="user_qq">
+		<div class="user-input">
+			<span class="icon3 icon-qq"></span>
+			<span class="info-word">QQ号</span>
+		</div>
+	</label>
+	<input type="text" id="user_qq" name="qq" value="{$data['qq']}"/>
+	</div>
+	<div class="item">
+		<label for="user_weixin">
+		<div class="user-input">
+			<span class="icon3 icon-weixin"></span>
+			<span class="info-word">微信号</span>
+		</div>
+	</label>
+	<input type="text" id="user_weixin" name="wechat" value="{$data['wechat']}"/>
+	</div>
+	<input type="submit" value="保&nbsp;&nbsp;存">
+</form>
+</div>
+</div>
+<script type="text/javascript">
+	function checkEmail(){
+		var id=<?php echo json_encode($data['id']);?>;
+		var val = $("#user_email").val();
+		$.get('{:U('User/checkemail')}',{'email':val,'id':id},function(data){
+			if (data==1) {
+				return true;
+			}else{
+				$("#user_email").attr("value","");
+				alert(data);
+			}
+		});
+	}
+</script>
+<include file="Public:footer"/>

@@ -1,0 +1,243 @@
+<include file="Public:header"/>
+<div id="ajaxform">
+	<form class="product-form" id="signupForm" action="{:U('Count/test')}" method="post">
+	<div class="type">
+		<span>产品型号</span><select name="type" id="type" onchange="toCheckone()">
+		<foreach name="type" item="vo" key="k">
+			<option value="{$vo['contion']}">{$vo['contion']}</option>
+		</foreach>
+		</select>
+	</div>
+	<div class="lock">
+		<span>锁</span><select name="lock" id="lock">
+		<foreach  name="lock"  item="vo" key="k">
+			<option value="{$vo['contion']}">{$vo['contion']}</option>
+		</foreach>
+		</select>
+	</div>
+	<div class="height">
+		<span>高</span><input type="text" id="height" name="height" placeholder="请输入0~5000内的整数(mm)" />
+	</div>
+	<div class="width">
+		<span>宽</span><input type="text" id="width" name="width" placeholder="请输入0~5000内的整数(mm)" />
+	</div>
+	<div class="depth">
+		<span>深</span><input type="text" id="depth" name="depth" placeholder="请输入0~5000内的整数(mm)" />
+	</div>
+	<div class="door_depth">
+		<span>门厚度</span><input type="text" id="door_depth" name="door_depth" placeholder="请输入0.1~10内的一位小数(mm)" />
+	</div>
+	<div class="box_depth">
+		<span>箱体厚度</span><input type="text" id="box_depth" name="box_depth" placeholder="请输入0.1~10内的一位小数(mm)" />
+	</div>
+	<div class="block_depth">
+		<span>安装板厚度</span><input type="text" id="block_depth" name="block_depth" placeholder="请输入0.1~10内的一位小数(mm)" />
+	</div>
+	<div class="color">
+		<span>塑粉颜色</span><select name="color">
+		<foreach  name="color"  item="vo" key="k">
+			<option value="{$vo['contion']}">{$vo['contion']}</option>
+		</foreach>
+		</select>
+	</div>
+	<div class="xianjia">
+		<span>线夹</span><select name="xianjia">
+		<option value="要">要</option>
+		<option value="不要">不需要</option>
+		</select>
+	</div>
+	<div class="mifengtiao">
+		<span>密封条</span><select name="mft_type" id="mft_type" onchange="toCheck()">
+		<option value="机浇">机浇</option>
+		<option value="手工">手工</option>
+		</select>
+	</div>
+	<div class="count">
+		<span>箱子数量</span><input type="text" id="count" name="count" placeholder="请输入整数" />
+	</div>
+	</form>
+</div>
+	<div class="link">
+		<button class="button"  onclick="adddata()" >添加</button><button class="button"  onclick="altdata()">修改</button><button class="button"  onclick="deldata()">删除</button><button class="button"  onclick="keepdata()">保存</button>
+	</div>
+<div id="ajaxtable">
+<div>
+<div class="table">
+    <p>基业箱价格表</p>
+	<table>
+		<tr>
+			<th>序号</th>
+			<th class="td-hidden">型号</th>
+			<th class="td-hidden">高</th>
+			<th class="td-hidden">宽</th>
+			<th class="td-hidden">深</th>
+			<th class="td-hidden">门厚</th>
+			<th class="td-hidden">箱厚</th>
+			<th class="td-hidden">板厚</th>
+			<th class="td-hidden">锁</th>
+			<th class="td-hidden">塑粉</th>
+			<th>单价</th>
+			<th>数量</th>
+			<th>合计</th>
+		</tr>
+		<foreach  name="data" item="vo" key="k">
+		<tr>
+			<td >{$vo['id']}</td>
+			<td class="td-hidden">{$vo['type']}</td>
+			<td class="td-hidden">{$vo['height']}</td>
+			<td class="td-hidden">{$vo['width']}</td>
+			<td class="td-hidden">{$vo['depth']}</td>
+			<td class="td-hidden">{$vo['door_depth']}</td>
+			<td class="td-hidden">{$vo['box_depth']}</td>
+			<td class="td-hidden">{$vo['block_depth']}</td>
+			<td class="td-hidden">{$vo['locktype']}</td>
+			<td class="td-hidden">{$vo['color']}</td>
+			<td >{$vo['unit_price']}</td>
+			<td >{$vo['count']}</td>
+			<td >{$vo['total']}</td>
+		</tr>
+		</foreach>
+	</table>
+</div>
+</div>
+<p class="total"><span>合计数量：{$totalnum}</span><span class="nbsp-hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="price">合计总价：{$totalprice}元</span></p>
+</div>
+</div>
+</div>
+<script>
+//保存数据
+function keepdata(){
+	$.ajax({
+		type:'POST',
+		url:"{:U('Count/keepdata')}",
+        dataType: 'json',
+		success:function(res){
+			if(res['status']==0){
+				alert("没有计算数据");
+			}else if(res['status']==1){
+				alert("保存出错");
+			}else if(res['status']==2) {
+				alert("保存成功");
+			}else{
+				alert("其他错误");
+			}
+		}
+	})
+}
+//修改功能
+ function altdata(){
+ 	$.ajax({
+			type:'POST',
+			url:"{:U('Count/altdata')}",
+			data: $("#signupForm").serializeArray(),  
+            dataType: 'json',
+			success:function(res){
+				if(res['status']==0){
+					alert("数据不完整");
+				}else if(res['status']==1){
+					alert("数据已存在");
+				}else if (res['status']==2) {
+					alert("请点击下表选择一条记录！");
+				}else{
+					$("#ajaxtable").html(res);
+				}
+			}
+	})
+ }
+//点击选择功能
+	$("table tr").click(function()
+	{
+		$this=$(this);
+		var a={};
+		var rows=this;
+		if (rows.cells[0].innerHTML!=='序号') {
+			for(var i=1;i<rows.cells.length;i++)
+		    {
+		        var cell = rows.cells[i];
+		        a[i]=cell.innerHTML;
+		    }
+		    $.ajax({
+			type:'POST',
+			url:"{:U('Count/showonedata')}",
+			data: a,  
+            dataType: 'json',
+			success:function(res){
+				if(res['status']==0){
+					alert("数据不完整");
+				}else if(res['status']==1){
+					alert("添加重复");
+				}else{
+					$("#ajaxform").html(res);
+				}
+			}
+			})
+		}
+	})
+
+//添加功能实现
+	function adddata(){
+		$.ajax({
+			type:'POST',
+			url:"{:U('Count/beforecount')}",
+			data: $("#signupForm").serializeArray(),  
+            dataType: 'json',
+			success:function(res){
+				if(res['status']==0){
+					alert("数据不完整");
+				}else if(res['status']==1){
+					alert("添加重复");
+				}else{
+					$("#ajaxtable").html(res);
+				}
+			}
+		})
+	}
+//删除功能实现
+	function deldata(){
+		$.ajax({
+			type:'POST',
+			url:"{:U('Count/delonedata')}",
+			data: $("#signupForm").serializeArray(),  
+            dataType: 'json',
+			success:function(res){
+				if(res['status']==0){
+					alert("请点击下表选择一条记录！");
+				}else if(res['status']==1){
+					alert("删除失败");
+				}else{
+					$("#ajaxtable").html(res);
+				}
+			}
+		})
+	}
+//默认选择
+	function select(){
+		var type=document.getElementById("type");
+			type.options[3].selected=true;
+		var lock=document.getElementById("lock");
+			lock.options[0].selected=true;
+	}
+	window.onload=select;
+//C类型产品只能选择手工
+ function toCheckone(){				 	
+	var type=document.getElementById("type").value;
+	var mft=document.getElementById("mft_type");
+	if(type==='C'){
+		mft.options[1].selected = true;
+	}
+	else{
+		return false;
+	}	
+}
+ function toCheck(){				 	
+	var type=document.getElementById("type").value;
+	var mft=document.getElementById("mft_type").value;
+	if(type==='C'&&mft==='机浇'){
+		alert("C产品类型密封条只能选择手工");
+	}
+	else{
+		return true;
+	}	
+}
+</script>
+<include file="Public:footer"/>

@@ -1,0 +1,739 @@
+[ 2016-05-23T11:07:51+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002957s ]
+
+[ 2016-05-23T11:07:54+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002573s ]
+
+[ 2016-05-23T11:07:55+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2016-05-23T11:07:56+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002611s ]
+
+[ 2016-05-23T11:07:59+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004004s ]
+
+[ 2016-05-23T11:08:20+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2016-05-23T11:11:37+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005445s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003584s ]
+
+[ 2016-05-23T11:11:55+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003782s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002974s ]
+
+[ 2016-05-23T11:11:57+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2016-05-23T11:12:02+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002668s ]
+
+[ 2016-05-23T11:12:04+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2016-05-23T11:16:30+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004027s ]
+NOTIC: [8] Use of undefined constant user_rname - assumed 'user_rname' E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = 'Arrayuser_rname' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002572s ]
+
+[ 2016-05-23T11:17:15+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+NOTIC: [8] Use of undefined constant user_rname - assumed 'user_rname' E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = 'Arrayuser_rname' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2016-05-23T11:17:17+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004376s ]
+NOTIC: [8] Use of undefined constant user_rname - assumed 'user_rname' E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\jiyexiang\App\Home\Controller\LogController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = 'Arrayuser_rname' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2016-05-23T11:20:37+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123111121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123111121' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003307s ]
+
+[ 2016-05-23T11:21:51+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0859s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002619s ]
+
+[ 2016-05-23T11:21:54+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123124' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2016-05-23T11:21:56+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123124' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2016-05-23T11:22:01+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123124' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003019s ]
+
+[ 2016-05-23T11:22:02+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123124' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2016-05-23T11:22:38+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=123124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '123124' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004262s ]
+
+[ 2016-05-23T11:22:49+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003583s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003844s ]
+
+[ 2016-05-23T11:25:30+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2016-05-23T11:25:32+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004809s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2016-05-23T11:26:01+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003640s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002776s ]
+
+[ 2016-05-23T11:26:06+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1111111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004347s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0823s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1111111111' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002706s ]
+
+[ 2016-05-23T11:26:09+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=15927002872
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003569s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '15927002872' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003453s ]
+
+[ 2016-05-23T11:26:16+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003688s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003065s ]
+
+[ 2016-05-23T11:26:22+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=%E5%90%B4%E6%A1%A61234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003550s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '吴桦1234' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002858s ]
+
+[ 2016-05-23T11:26:24+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=%E5%90%B4%E6%A1%A61234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '吴桦1234' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003138s ]
+
+[ 2016-05-23T11:26:38+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=%E5%90%B4%E6%A1%A61234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003586s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '吴桦1234' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2016-05-23T11:26:46+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003331s ]
+
+[ 2016-05-23T11:30:29+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=%E6%88%91%E8%AE%A4%E4%B8%BA
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004831s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '我认为' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003239s ]
+
+[ 2016-05-23T11:30:30+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004632s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003148s ]
+
+[ 2016-05-23T11:30:35+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=11111111111111+
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006063s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '11111111111111 ' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003954s ]
+
+[ 2016-05-23T11:30:38+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=%E6%88%91%E8%AE%A4%E4%B8%BA
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005150s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '我认为' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003855s ]
+
+[ 2016-05-23T11:30:41+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=12313124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005925s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '12313124' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2016-05-23T11:30:45+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004905s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003982s ]
+
+[ 2016-05-23T11:30:50+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=12313124
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005966s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '12313124' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004021s ]
+
+[ 2016-05-23T11:30:54+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006160s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004082s ]
+
+[ 2016-05-23T11:31:03+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004493s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003888s ]
+
+[ 2016-05-23T11:31:07+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004675s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0775s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004030s ]
+
+[ 2016-05-23T11:37:46+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003694s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2016-05-23T11:37:49+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2016-05-23T11:40:05+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003746s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002875s ]
+
+[ 2016-05-23T11:40:07+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2016-05-23T11:40:09+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006250s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002744s ]
+
+[ 2016-05-23T11:40:13+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003047s ]
+
+[ 2016-05-23T11:40:16+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004316s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2016-05-23T11:40:22+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003364s ]
+
+[ 2016-05-23T11:40:26+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0659s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2016-05-23T11:40:28+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2016-05-23T11:40:32+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.1232s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002703s ]
+
+[ 2016-05-23T11:40:36+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=131452
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004681s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '131452' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002826s ]
+
+[ 2016-05-23T11:40:51+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003615s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.1151s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002716s ]
+
+[ 2016-05-23T11:40:55+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005401s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2016-05-23T11:44:21+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005930s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003604s ]
+
+[ 2016-05-23T11:44:27+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004111s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2016-05-23T11:44:28+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2016-05-23T11:44:34+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1+1231+23+123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1 1231 23 123' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002978s ]
+
+[ 2016-05-23T11:44:37+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=111111111111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '111111111111111' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2016-05-23T11:44:39+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=324
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003599s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '324' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002833s ]
+
+[ 2016-05-23T11:44:41+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=111232421
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003625s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '111232421' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2016-05-23T11:44:46+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2016-05-23T11:44:47+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003555s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002718s ]
+
+[ 2016-05-23T11:44:58+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004929s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2016-05-23T11:45:10+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005161s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003577s ]
+
+[ 2016-05-23T11:45:12+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0862s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002507s ]
+
+[ 2016-05-23T11:45:13+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2016-05-23T11:45:18+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2016-05-23T11:45:20+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944883%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944883@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002975s ]
+
+[ 2016-05-23T11:45:24+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944882%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944882@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-05-23T11:45:33+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=228944882%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003154s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '228944882@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2016-05-23T11:45:37+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=111232421
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '111232421' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003187s ]
+
+[ 2016-05-23T11:45:40+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1314520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1314520' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003457s ]
+

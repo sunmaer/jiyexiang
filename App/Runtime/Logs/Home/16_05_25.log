@@ -1,0 +1,62 @@
+[ 2016-05-25T07:49:03+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-05-25T07:49:06+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2016-05-25T07:49:09+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2016-05-25T07:49:12+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=13145201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '13145201' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-05-25T19:06:26+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: Think\Model:var_dump方法不存在！
+
+[ 2016-05-25T19:36:17+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `jyx_judge` WHERE ( uid= ) 
+
+[ 2016-05-25T20:31:31+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: Think\Controller:findresult方法不存在！
+
+[ 2016-05-25T20:34:26+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT  `op` FROM `jyx_judge` WHERE ( uid =  ) LIMIT 1  
+
+[ 2016-05-25T20:35:52+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT  `op` FROM `jyx_judge` WHERE ( uid =  ) LIMIT 1  
+
+[ 2016-05-25T20:37:44+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: 1054:Champ '锁数量' inconnu dans where clause
+ [ SQL语句 ] : SELECT DISTINCT  `op` FROM `jyx_judge` WHERE ( judgename = 锁数量 ) LIMIT 1  
+

@@ -1,0 +1,1579 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+    border: 0;
+}
+body {
+	width: 100%;
+	background-color: #fff;
+	font: 15px verdana,Tahoma, Arial, sans-serif;
+	color: #585858;
+}
+.page span{
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+	border-right: 1px solid #b0b0b0;
+	padding: 5px 8px;
+	background-color: #f5f5f5;
+	font-size: 15px;
+	color: #585858;
+}
+.prev-page{
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+	border-left: 1px solid #b0b0b0;
+	padding: 5px 8px;
+	background-color: #fff;
+	font-size: 15px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.next-page{
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+	border-right: 1px solid #b0b0b0;
+	padding: 5px 8px;
+	background-color: #fff;
+	font-size: 15px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.page a{
+	text-decoration: none;
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+	border-right: 1px solid #b0b0b0;
+	padding: 5px 8px;
+	background-color: #fff;
+	font-size: 15px;
+	color: #428bca;
+}
+.page a:hover{
+	background-color: #f5f5f5;
+	color: #585858;
+}
+DIV.page { 
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px; TEXT-ALIGN: center;
+	font-size: 0;
+} 
+DIV.page A { 
+	BORDER-RIGHT: #b0b0b0 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #b0b0b0 1px solid;
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 2px; 
+	BORDER-LEFT: #b0b0b0 1px solid; COLOR: #428bca; PADDING-TOP: 5px;
+	BORDER-BOTTOM: #b0b0b0 1px solid; TEXT-DECORATION: none ;border-radius: 3px;
+} 
+DIV.page A:hover { 
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid;border-radius: 3px;
+	BORDER-LEFT: #b0b0b0 1px solid; COLOR: #585858; BORDER-BOTTOM: #b0b0b0 1px solid 
+} 
+DIV.page A:active { 
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid;border-radius: 3px;
+	BORDER-LEFT: #b0b0b0 1px solid; COLOR: #585858; BORDER-BOTTOM: #b0b0b0 1px solid 
+} 
+DIV.page SPAN.current { 
+	BORDER-RIGHT: #b0b0b0 1px solid; PADDING-RIGHT: 10px;border-radius: 3px;
+	BORDER-TOP: #b0b0b0 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 5px; MARGIN: 2px; BORDER-LEFT: #b0b0b0 1px solid;
+	COLOR: #585858; PADDING-TOP: 5px; BORDER-BOTTOM: #b0b0b0 1px solid; BACKGROUND-COLOR: #f5f5f5 
+} 
+DIV.page SPAN.disabled { 
+	BORDER-RIGHT: #b0b0b0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b0b0b0 1px solid;border-radius: 3px;
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px;
+	BORDER-LEFT: #b0b0b0 1px solid; COLOR: #428bca; PADDING-TOP: 2px;
+	BORDER-BOTTOM: #b0b0b0 1px solid 
+} 
+
+
+
+
+
+/*网页字体引入*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts_admin/icomoon.eot?5x0htg');
+    src:    url('../fonts_admin/icomoon.eot?5x0htg#iefix') format('embedded-opentype'),
+        url('../fonts_admin/icomoon.ttf?5x0htg') format('truetype'),
+        url('../fonts_admin/icomoon.woff?5x0htg') format('woff'),
+        url('../fonts_admin/icomoon.svg?5x0htg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: -35px;
+	width: 35px;
+    content: "\f06d";
+    color: #fff;
+    font-size: 35px;
+}
+/*<-----------------头部导航------------------->*/
+#header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	background-color: #438eb9;
+	box-sizing: border-box;
+	padding: 0 0 0 30px;
+}
+.icon-menu {
+	display: none;
+	position: relative;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-top: 7.5px;
+	margin-right: 10px;
+	width: 50px;
+	height: 45px;
+	background-color: #62a8d1;
+	cursor: pointer;
+}
+.icon-menu:hover {
+	background-color: #5099C4;
+}
+.icon-menu:before {
+	position: absolute;
+	left: 10px;
+	content: "\f0c9";
+	font-size: 35px;
+	text-align: center;
+	line-height: 1.4;
+	color: #fff;
+}
+h1 {
+	position: relative;
+	float: left;
+	margin-left: 40px;
+	line-height: 60px;
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-family: "Glyphicons Halflings";
+	color: #fff;
+}
+#user {
+	display: block;
+	float: right;
+	height: 60px;
+	box-sizing: border-box;
+	padding: 5px 30px 5px 20px;
+	text-decoration: none;
+	background-color: #62a8d1;
+}
+#user:hover {
+	background-color: #5099C4;
+}
+#user img {
+	vertical-align: middle;
+	width: 46px;
+	height: 46px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+#user span {
+	display: inline-block;
+	margin-left: 10px;
+	color: #fff;
+}
+/*<----------------中间---------------------->*/
+#container {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	height: auto;
+	/*overflow: hidden;*/
+}
+
+
+/*<-------------侧边导航栏------------->*/
+.sidebar {
+	z-index: 999;
+	position: fixed;
+	width: 220px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	background-color: #f3f3f3;
+}
+.menu {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #e0e0e0;
+	text-align: center;
+}
+.menu span {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 45px;
+	height: 35px;
+}
+.icon1 {
+	line-height: 1.3;
+	font-size: 20px;
+	color: #fff;
+}
+.icon-index:before {
+	content: "\f015";
+}
+.icon-info:before {
+	content: "\f040";
+}
+.icon-loginout:before {
+	content: "\f011";
+}
+.icon-index {
+	margin-right: 15px;
+	margin-top: 7.5px;
+	border: 5px solid #87b87f;
+	background-color: #87b87f;
+}
+.icon-index:hover {
+	background-color: #5D9754;
+}
+.icon-info {
+	margin-right: 15px;
+	margin-top: 7.5px;
+	border: 5px solid #6fb3e0;
+	background-color: #6fb3e0;
+}
+.icon-info:hover {
+	background-color: #508DB5;
+}
+.icon-loginout {
+	margin-top: 7.5px;
+	border: 5px solid #ffb752;
+	background-color: #ffb752;
+}
+.icon-loginout:hover {
+	background-color: #D49946;
+}
+hr {
+	width: 100%;
+	height: 1px;
+	background-color: #e0e0e0;
+}
+#nav li {
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+	cursor: pointer;
+}
+#nav li:hover {
+	color: #1963aa;
+	background-color: #fff;
+}
+.navmenu ul {
+	display: none;
+}
+#nav li ul li {
+	border-top: 1px dotted #e0e0e0;	
+}
+#nav li ul li:nth-child(1) {
+	border-top: 1px solid #e0e0e0;
+}
+.navmenu ul li a {
+	display: block;
+	width: 100%；
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #585858;
+	text-align: center;
+	background-color: #fff;
+}
+.icon-item {
+	position: absolute;
+	left: 40px;
+	height: 40px;
+	border-left: 1px dotted #999999;
+}
+.icon-item:before {
+	display: block;
+	content: "";
+	width: 20px;
+	position: absolute;
+	top: 19.5px;
+	border-top: 1px dotted #999999;
+}
+#nav li ul li a:hover {
+	color: #1963aa;
+	background-color: #ECFCFB;
+}
+#nav li ul li a:hover .icon-item:before {
+	content: "\f0da";
+	width: 0;
+	position: absolute;
+	left: -1px;
+	top: 0;
+	border: none;
+	font-size: 20px;
+	line-height: 2;
+}
+#nav li:hover .icon2:before{
+	height: 45px;
+	transition: height 1s;
+	-moz-transition: height 1s;	
+	-webkit-transition: height 1s;	
+	-o-transition: height 1s;
+}
+.icon2:before {
+	position: absolute;
+	display: inline-block;
+	content: "";
+	width: 4px;
+	height: 0px;
+	background-color: #1963aa;
+	transition: height 1.5s;
+	-moz-transition: height 1.5s;	
+	-webkit-transition: height 1.5s;	
+	-o-transition: height 1.5s;
+}
+.icon-cailiao:after {
+	position: absolute;
+	content: "\f114";
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.icon-baojia:after {
+	content: "\f1ec";
+	position: absolute;
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.icon-yonghu:after {
+	content: "\f0c0";
+	position: absolute;
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.icon-admin:after {
+	content: "\f013";
+	position: absolute;
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.icon-seo:after {
+	content: "\f0ac";
+	position: absolute;
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.co {
+	height: 45px;
+	width: 100%;
+}
+.words {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	/*width: 100%;*/
+	margin-left: 40px;
+}
+.icon-word:after {
+	content: "\f104";
+	position: absolute;
+	right: 30px;
+	font-size: 20px;
+	line-height: 2.25;
+}
+.icon-word1:after {
+	content: "\f107";
+	position: absolute;
+	right: 27px;
+	font-size: 20px;
+	line-height: 2.25;
+}
+
+/*<----------------------右边内容区域------------------>*/
+#right {
+	position: relative;
+	padding-left: 220px;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+}
+.welcome {
+	z-index: 999;
+	position: fixed;
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #62a8d1;
+	border-left: 1px solid #ccc;
+	background-color: #f9f9f9;
+}
+.content {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 70px 0 0 0;
+	width: 95%;
+	overflow: hidden;
+}
+
+/*<-------------------管理员-系统信息页面---------------->*/
+.wrapper {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	border: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+}
+.title {
+	box-sizing: border-box;
+	padding-left: 20px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	/*渐变背景色*/
+	background-image: -webkit-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: -o-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: linear-gradient(to bottom,#fff 0,#eee 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
+	color: #669fc7;
+	border-bottom: 1px solid #b0b0b0;
+}
+.info {
+	box-sizing: border-box;
+	margin: 20px;
+	line-height: 30px;
+	padding: 0 20px;
+}
+
+.blue {
+	font-weight: bold;
+	font-size: 18px;
+	color: #669fc7;
+}
+.link {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 3px;
+	line-height: 16px;
+	color: #fff;
+	border: 4px solid #ffb752;
+	text-decoration: none;
+	background-color: #ffb752;
+}
+.link:hover {
+	background-color: #D49946;
+}
+.key {
+	color: #444444;
+}
+
+
+/*页脚*/
+#footer {
+	box-sizing: border-box;
+	height: 80px;
+	line-height: 80px;
+	border-top: 3px double #E5E5E5;
+	text-align: center;
+	/*color: #b0b0b0;*/
+}
+#footer img {
+	width: 28px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.zero {
+	color: #32a3ce;
+}
+
+/*<-------------------管理员-修改信息页面---------------->*/
+.alterInfo-contents {
+	box-sizing: border-box;
+	width: 50%;
+	height: auto;
+	border: 1px solid #b0b0b0;
+	margin: 0 auto 20px;
+	background-color: #f9f9f9;
+}
+.alterInfoForm label {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+.alterInfoForm input {
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	border: 1px solid #b0b0b0;
+	color: #585858;
+}
+input:read-only {
+	background-color: #f5f5f5;
+	cursor: default;
+}
+input:-moz-read-only {
+	background-color: #f5f5f5;
+	cursor: default;
+}
+.alterInfoForm input[type="submit"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border: 1px solid #60A7D6;
+	font-size: 15px;
+	color: #fff;
+	background-color: #6fb3e0; 
+}
+.info input[type="submit"]:hover {
+	background-color: #60A7D6;
+}
+
+
+/*<---------------------所有用户页面-------------------->*/
+.alluser-search {
+	position: relative;
+	margin-bottom: 20px;
+}
+.icon-search:before {
+	content: "\1f31f";
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #999999;
+}
+.alluser-search input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 38px;
+	width: 40%;
+	height: 35px;
+	border: 1px solid #b0b0b0;
+	font-size: 15px;
+	color: #585858;
+}
+.alluser-search input[type="text"]:focus {
+	border: 1px solid #ffb752;
+}
+.alluser-search input[type="submit"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 4px solid #9585bf;
+	padding: 0 30px;
+	height: 35px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #9585bf;
+}
+.alluser-search input[type="submit"]:hover {
+	background-color: rgb(116, 97, 170);
+}
+.alluser-table {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
+.alluser-table tr {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.alluser-table tr th{
+	height: 40px;
+	border: 1px solid #b0b0b0;
+	/*渐变背景色*/
+	background-image: -webkit-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: -o-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: linear-gradient(to bottom,#fff 0,#eee 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
+}
+.alluser-table tr td{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 40px;
+	border: 1px solid #b0b0b0;
+	text-align: center;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.alluser-xuanze {
+	width: 90px;
+}
+.alluser-id {
+	/*width: 50px;*/
+}
+.alluser-name {
+	width: 90px;
+}
+.alluser-shenhe {
+	width: 72.45px;
+}
+.alluser-caozuo {
+	width: 123.483px;
+}
+.alluser-table tr:hover {
+	background-color: #fff;
+}
+.alluser-button {
+	box-sizing: border-box;
+	color: #fff;
+	border: 2px solid #ffb752;
+	background-color: #ffb752;
+}
+.alluser-button:hover {
+	background-color: #B46F0F;
+}
+.alluser-abutton {
+	box-sizing: border-box;
+	color: #fff;
+	border: 2px solid #d15b47;
+	background-color: #d15b47;
+}
+.alluser-abutton:hover {
+	background-color: #AD2710;
+}
+.alluser-choose {
+	position: relative;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 4.5px;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #b0b0b0;
+	cursor: pointer;
+}
+.alluser-achoose {
+	position: relative;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 4.5px;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ffb752;
+	cursor: pointer;
+}
+.icon-choose:before {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	content: "\f00c";
+	font-size: 17px;
+	color: #32a3ce;
+}
+.alluser-icon {
+	display: inline-block;
+	margin-top: 4px;
+	width: 30px; 
+	font-size: 20px;
+	cursor: pointer;
+	color: #585858;
+}
+.icon-watch:before {
+	content: "\f06e";
+	color: #ffb752;
+}
+.icon-alter:before {
+	content: "\f040";
+	color: #69aa46;
+}
+.icon-lotshenhe:before {
+	content: "\f013";
+	color: #32a3ce;
+}
+.icon-delete:before {
+	content: "\f014";
+	color: #dd5a43;
+}
+.tfoot {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid #b0b0b0;
+	border-top: none;
+	background-color: #f5f5f5;
+}
+.lot {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 91px;
+	border-right: 1px solid #b0b0b0;
+	text-align: center;
+}
+
+
+/*<--------------------添加用户、修改用户信息、查看用户信息页面----------------->*/
+.adduser-wrapper {
+	float: left;
+	box-sizing: border-box;
+	width: 40%;
+	height: auto;
+	border: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+}
+.adduser-contents {
+	float: right;
+	box-sizing: border-box;
+	width: 57%;
+	height: auto;
+	border: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+}
+/*表单错误提示信息*/
+.error{
+	height: 30px;
+	line-height: 30px;
+	color:red;
+}
+.adduser-item {
+	position: relative;
+	margin-bottom: 20px;
+}
+.adduser-form input[type="text"],.adduser-form input[type="password"] {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding-left: 150px;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #404040;
+}
+.adduser-info {
+	position: absolute;
+	left: 0;
+	box-sizing: border-box;
+}
+.adduser-info-word {
+	position: absolute;
+	display: inline-block;
+	width: 105px;
+	height: 40px;
+    margin-left: 30px;
+	padding-left: 15px;
+	line-height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #b0b0b0;
+	border-left: none;
+}
+.adduser-form em {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 15px;
+	line-height: 40px;
+	color: red;
+}
+.adduser-form input[type="submit"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	border-radius: 3px;
+	border: 1px solid #60A7D6;
+	font-size: 15px;
+	color: #fff;
+	background-color: #6fb3e0; 
+}
+.adduser-form input[type="submit"]:hover {
+	background-color: #60A7D6;
+}
+.adduser-icon{
+	position: absolute;
+	font-size: 20px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+    color: #6fb3e0;
+    width: 35px;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 2;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 1px solid #b0b0b0;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-right: none;
+}
+.icon-rname:before {
+    content: "\f108";
+}
+.icon-name:before {
+    content: "\f007";
+}
+.icon-pwd:before {
+    content: "\f023";
+}
+.icon-confirmpwd:before {
+    content: "\f023";
+}
+.icon-comname:before {
+    content: "\f0f7";
+}
+.icon-comphone:before {
+    content: "\f095";
+}
+.icon-address:before {
+    content: "\f015";
+}
+.icon-phone:before {
+    content: "\f10a";
+}
+.icon-email:before {
+    content: "\f003";
+}
+.icon-qq:before {
+    content: "\f1d6";
+}
+.icon-weixin:before {
+    content: "\f1d7";
+}
+
+
+/*<------------------报价管理页面----------------->*/
+.sub {
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.baojia-date {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #b0b0b0;
+	border-right: none;
+	display: inline-block;
+	height: 30px;
+	width: 50px;
+	font-size: 12px;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+.icon-date:before {
+	content: "\f073";
+	font-size: 14px;
+	color: #555555;
+}
+.sub select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 20px;
+	height: 30px;
+	border: 1px solid #b0b0b0;
+	font-size: 15px;
+	color: #585858;
+	text-align: center;
+}
+.baojia-search {
+	position: relative;
+	margin-bottom: 20px;
+}
+.icon-search:before {
+	content: "\1f31f";
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #999999;
+}
+.baojia-search input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 38px;
+	width: 50%;
+	height: 35px;
+	border: 1px solid #b0b0b0;
+	font-size: 15px;
+	color: #585858;
+}
+.baojia-search input[type="text"]:focus {
+	border: 1px solid #ffb752;
+}
+.baojia-search input[type="submit"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 4px solid #9585bf;
+	padding: 0 30px;
+	height: 35px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #9585bf;
+}
+.baojia-search input[type="submit"]:hover {
+	background-color: rgb(116, 97, 170);
+}
+.baojia-table {
+	clear: both;
+}
+.baojia-table {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
+.baojia-table tr {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.baojia-table tr th{
+	height: 40px;
+	border: 1px solid #b0b0b0;
+	/*渐变背景色*/
+	background-image: -webkit-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: -o-linear-gradient(top,#fff 0,#eee 100%);
+	background-image: linear-gradient(to bottom,#fff 0,#eee 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
+}
+.baojia-table tr td{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 40px;
+	border: 1px solid #b0b0b0;
+	text-align: center;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.baojia-time {
+	width: 120px;
+}
+.baojia-table tr:hover {
+	background-color: #fff;
+}
+.export {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	height: 60px;
+	width: 91px;
+	border-right: 1px solid #b0b0b0;
+	text-align: center;
+}
+.icon-xls:before {
+	content: "\e902";
+	font-size: 35px;
+	line-height: 1.5;
+}
+.export:hover .icon-xls,.export:hover .icon-export {
+	color: #33C44D;
+}
+.icon-export:before {
+	content: "\f112";
+	font-size: 25px;
+}
+
+
+/*<-------------------配置信息页面--------------------->*/
+.formula {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+	color: #31708f;
+}
+.formula input[type="text"] {
+	display: inline-block;
+	padding-left: 8px;
+	margin-right: 30px;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #bce8f1;
+}
+.formula select {
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #bce8f1;
+	text-align: center;
+}
+.formula a {
+	margin-right: 10px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #31708f;
+	cursor: pointer;
+}
+.formula a:hover {
+	text-decoration: underline;
+}
+.xiugai {
+	height: 40px;
+	width: 100%;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+	border-radius: 3px; 
+	color: #31708f;
+}
+.formula-info {
+	box-sizing: border-box;
+	margin: 20px;
+	line-height: 30px;
+	padding: 0 20px;
+	background-color: #f2dede;
+	border: 1px solid #ebccd1;
+	color: #a94442;
+}
+.formula-info span {
+	display: inline-block;
+	width: 100px;
+}
+.formula-info input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 15px;
+	margin: 20px 0;
+	width: calc(100% - 100px);
+	height: 35px;
+	border: 1px solid #ebccd1;
+}
+.formula-info textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 20px 0;
+	width: calc(100% - 100px);
+	height: 80px;
+	vertical-align: top;
+	border: 1px solid #ebccd1;
+}
+.formula-info button {
+	height: 40px;
+	width: calc(100% - 100px);
+	margin-left: 100px;
+	margin-bottom: 20px;
+	background-color: #EFB5BE;
+	border: 1px solid #ebccd1;
+	border-radius: 3px; 
+	font-size: 15px;
+	color: #fff;
+}
+/*公式配置信息*/
+.peizhi span {
+	display: inline-block;
+	width: 80px;
+}
+.peizhi input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 15px;
+	margin: 0 0 20px;
+	width: calc(100% - 80px);
+	height: 35px;
+	border: 1px solid #b0b0b0;
+}
+.peizhi h3 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 40px;
+	margin: 0 0 20px;
+}
+.peizhi textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 20px 0;
+	width: calc(100% - 80px);
+	height: 80px;
+	vertical-align: top;
+	border: 1px solid #b0b0b0;
+}
+.peizhi a {
+	line-height: 50px;
+	text-decoration: none;
+	color: #333;
+}
+.peizhi a:hover {
+	text-decoration: underline;
+}
+.peizhi button[type="submit"] {
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	border: 1px solid #b0b0b0;
+}
+.non {
+	margin-right: 20px;
+}
+.peizhi button {
+	width: calc((100% - 20px)/2);
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #b0b0b0;
+	cursor: pointer;
+}
+
+/*<------------------网站设置页面---------------->*/
+.icon-url:before {
+	content: "\f0ac";
+}
+.icon-title:before {
+	content: "\f06e";
+}
+.icon-keywords:before {
+	content: "\f02c";
+}
+.icon-description:before {
+	content: "\f040";
+}
+.databutton {
+	box-sizing: border-box;
+	color: #fff;
+	border: 2px solid #ffb752;
+	background-color: #ffb752;
+}
+.databutton:hover {
+	background-color: #B46F0F;
+}
+.backup {
+	width: 100%;
+	line-height: 40px;
+}
+.backup input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 15px;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #b0b0b0;
+}
+.backup input[type="submit"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100px;
+	height: 35px;
+	margin-bottom: 20px;
+	border: 1px solid #b0b0b0;
+	border-left: none;
+}
+.xuhao {
+	width: 50px;
+}
+
+/*<--------------------css3媒体查询-------------------->*/
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {
+	
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*<-------------------管理员-修改信息页面---------------->*/
+	.alterInfo-wrapper {
+		width: 47%;
+	}
+	.alterInfo-contents {
+		width: 50%;
+	}
+	/*<---------------------所有用户页面-------------------->*/
+	.comnamehidden,.comphonehidden,.weixinhidden {
+		display: none;
+	}
+
+	/*<--------------------添加用户、修改用户信息、查看用户信息页面----------------->*/
+	
+	.adduser-form input[type="text"],.adduser-form input[type="password"] {
+		padding-left: 105px;
+	}
+	.adduser-info-word {
+		width: 95px;
+	    margin-left: 0px;
+		padding-left: 10px;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+	.adduser-icon{
+		display: none;
+	}
+
+	/*<------------------报价管理页面----------------->*/
+	.compnamehidden,.widthhidden,.heighthidden,.depthhidden,.boxhidden,.doorhidden,.blockhidden{
+		display: none;
+	}
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*<-----------------头部导航------------------->*/
+	#header {
+		padding: 0 0 0 10px;
+	}
+	.icon-menu {
+		display: block;
+	}
+
+	/*<-------------侧边导航栏------------->*/
+	.sidebar {
+		left: -220px;
+	}
+
+	/*<----------------------右边内容区域------------------>*/
+	#right {
+		padding-left: 0;
+	}
+	.welcome {
+		display: none;
+	}
+	.content {
+		padding: 10px 0 0 0;
+		width: 95%;
+	}
+
+	/*<-------------------管理员-系统信息页面---------------->*/
+	.info {
+		margin: 10px;
+		padding: 0 20px;
+	}
+
+	/*<-------------------管理员-修改信息页面---------------->*/
+	.alterInfo-wrapper {
+		width: 47%;
+	}
+	.alterInfo-contents {
+		width: 50%;
+	}
+	/*<---------------------所有用户页面-------------------->*/
+	.comnamehidden,.comphonehidden,.qqhidden,.weixinhidden {
+		display: none;
+	}
+
+	/*<--------------------添加用户、修改用户信息、查看用户信息页面----------------->*/
+	
+	.adduser-form input[type="text"],.adduser-form input[type="password"] {
+		padding-left: 105px;
+	}
+	.adduser-info-word {
+		width: 95px;
+	    margin-left: 0px;
+		padding-left: 10px;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+	.adduser-icon{
+		display: none;
+	}
+
+	/*<------------------报价管理页面----------------->*/
+	.sub select {
+		/*width: calc((100% - 30px - 15px - 8.4*6px)/6);*/
+		padding: 0 15px;
+	}
+	.compnamehidden,.widthhidden,.heighthidden,.depthhidden,.boxhidden,.doorhidden,.blockhidden{
+		display: none;
+	}
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+	/*<-----------------头部导航------------------->*/
+	#header {
+		padding: 0 0 0 10px;
+	}
+	.icon-menu {
+		display: block;
+	}
+	#user {
+		display: none;
+	}
+	/*<----------------中间---------------------->*/
+	#container {
+		position: absolute;
+		top: 60px;
+		width: 100%;
+		height: auto;
+		/*overflow: hidden;*/
+	}
+
+
+	/*<-------------侧边导航栏------------->*/
+	.sidebar {
+		left: -220px;
+	}
+
+	/*<----------------------右边内容区域------------------>*/
+	#right {
+		padding-left: 0;
+	}
+	.welcome {
+		display: none;
+	}
+	.content {
+		padding: 10px 0 0 0;
+		width: 80%;
+	}
+
+	/*<-------------------管理员-系统信息页面---------------->*/
+	.info {
+		margin: 10px;
+		padding: 0 20px;
+	}
+
+	/*<-------------------管理员-修改信息页面---------------->*/
+	.alterInfo-wrapper {
+		display: block;
+		width: 100%;
+	}
+	.alterInfo-contents {
+		display: block;
+		width: 100%;
+	}
+	/*<---------------------所有用户页面-------------------->*/
+	.alluser-search input[type="text"] {
+		width: calc(100% - 104px);
+	}
+	.xuanzehidden,.comnamehidden,.comphonehidden,.phonehidden,.qqhidden,.weixinhidden,.lothidden {
+		display: none;
+	}
+
+	/*<--------------------添加用户、修改用户信息、查看用户信息页面----------------->*/
+	.adduser-wrapper {
+		display: block;
+		width: 100%;
+	}
+	.adduser-contents {
+		display: block;
+		width: 100%;
+	}
+	.adduser-form input[type="text"],.adduser-form input[type="password"] {
+		padding-left: 105px;
+	}
+	.adduser-info-word {
+		width: 95px;
+	    margin-left: 0px;
+		padding-left: 10px;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+	.adduser-icon{
+		display: none;
+	}
+
+	/*<------------------报价管理页面----------------->*/
+	.sub select {
+		/*width: calc((100% - 30px - 15px - 8.4*6px)/6);*/
+		padding: 0 10px;
+	}
+	.baojia-search input[type="text"] {
+		width: calc(100% - 84px);
+	}
+	.baojia-search input[type="submit"] {
+		padding: 0 20px;
+	}
+	.compnamehidden,.widthhidden,.heighthidden,.depthhidden,.boxhidden,.doorhidden,.blockhidden,.timehidden{
+		display: none;
+	}
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+	.icon-logo:before {
+		top: 12.5px;
+	    font-size: 30px;
+	}
+	/*<-----------------头部导航------------------->*/
+	#header {
+		padding: 0 0 0 10px;
+	}
+	.icon-menu {
+		display: block;
+	}
+	#user {
+		display: none;
+	}
+	/*<----------------中间---------------------->*/
+	#container {
+		position: absolute;
+		top: 60px;
+		width: 100%;
+		height: auto;
+		/*overflow: hidden;*/
+	}
+
+
+	/*<-------------侧边导航栏------------->*/
+	.sidebar {
+		left: -220px;
+	}
+
+	/*<----------------------右边内容区域------------------>*/
+	#right {
+		padding-left: 0;
+	}
+	.welcome {
+		display: none;
+	}
+	.content {
+		padding: 10px 0 0 0;
+		width: 95%;
+	}
+
+	/*<-------------------管理员-系统信息页面---------------->*/
+	.info {
+		margin: 10px;
+		padding: 0 10px;
+	}
+	.c-hidden {
+		display: none;
+	}
+
+	/*<-------------------管理员-修改信息页面---------------->*/
+	.alterInfo-wrapper {
+		display: block;
+		width: 100%;
+	}
+	.alterInfo-contents {
+		display: block;
+		width: 100%;
+	}
+
+	/*<---------------------所有用户页面-------------------->*/
+	.alluser-search input[type="text"] {
+		width: calc(100% - 78px);
+		font-size: 11px;
+	}
+	.alluser-search input[type="submit"] {
+		padding: 0 20px;
+		font-size: 12px;
+	}
+	.xuanzehidden,.namehidden,.comnamehidden,.comphonehidden,.phonehidden,.qqhidden,.weixinhidden,.lothidden {
+		display: none;
+	}
+
+	/*<--------------------添加用户、修改用户信息、查看用户信息页面----------------->*/
+	.adduser-wrapper {
+		display: block;
+		width: 100%;
+	}
+	.adduser-contents {
+		display: block;
+		width: 100%;
+	}
+	.adduser-form input[type="text"],.adduser-form input[type="password"] {
+		padding-left: 105px;
+	}
+	.adduser-info-word {
+		width: 95px;
+	    margin-left: 0px;
+		padding-left: 10px;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+	.adduser-icon{
+		display: none;
+	}
+
+	/*<------------------报价管理页面----------------->*/
+	.sub select {
+		width: calc((100% - 30px - 15px - 8.4*6px)/6);
+		padding: 0 2.5px;
+	}
+	.baojia-search input[type="text"] {
+		width: calc(100% - 78px);
+		font-size: 11px;
+	}
+	.baojia-search input[type="submit"] {
+		padding: 0 20px;
+		font-size: 12px;
+	}
+	.compnamehidden,.widthhidden,.heighthidden,.depthhidden,.boxhidden,.doorhidden,.blockhidden,.timehidden{
+		display: none;
+	}
+	.formula-info span {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.formula-info input[type="text"] {
+		width: 100%;
+	}
+	.formula-info textarea {
+		width: 100%;
+	}
+	.formula-info button {
+		width: 100%;
+		margin-left: 0;
+}
+	.backup input[type="text"] {
+		width: calc(100% - 100px);
+	}
+}

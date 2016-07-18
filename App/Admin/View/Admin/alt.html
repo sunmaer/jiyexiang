@@ -1,0 +1,26 @@
+<include file="Public:header"/>
+	<div class="alterInfo-contents">
+	<p class="title">修改个人信息</p>
+		<div class="info">
+		<form id="alterInfoForm" class="alterInfoForm" action="{:U('Admin/doalt',array('id'=>$data['id']))}" method="post">
+			<div>
+				<label>登录昵称</label>
+				<input type="text" id="alterInfo-name" value="{$data['username']}" name="alterInfo_name" required />
+			</div>
+			<div>
+				<label for="alterInfo-pwd">当前登录密码</label>
+				<input type="password" id="alterInfo-pwd" name="alterInfo_pwd" required />
+			</div>
+			<div>
+				<label for="alterInfo-newpwd">新密码</label>
+				<input type="password" id="alterInfo-newpwd" name="alterInfo_newpwd" required />
+			</div>
+			<div>
+				<label for="alterInfo-confirmpwd">确认新密码</label>
+				<input type="password" id="alterInfo-confirmpwd" name="alterInfo_confirmpwd" required />
+			</div>
+			<input type="submit" value="确认修改" />
+		</form>
+		</div>
+		</div>
+<include file="Public:footer"/>

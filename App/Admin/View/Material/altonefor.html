@@ -1,0 +1,99 @@
+<include file="Public:header"/>
+	<div class="adduser-wrapper">
+		<p class="title">版块说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />
+			你可以在本版块查看公式详细信息、修改配置信息。
+		</div>
+	</div>
+	<div class="adduser-contents">
+		<p class="title">配置信息</p>
+		<div class="info">
+			<div class="peizhi">
+				<form action="{:U('doaltonefor',array('id'=>$data1['id']))}" method="post">
+				<span>公式名称：</span><input type="text" name="name" value="{$data1['name']}"></input>
+				<span>公式：</span><textarea name="formulate">{$data1['formulate']}</textarea><br>
+				<div id="data1">
+				<h3>已做配置</h3>
+				<foreach name="data3" item="vo" key="k">
+					<span>非判定项：</span><input type="text" name="name[]" value="{$vo['name']}" /><br>
+					<input type="hidden" name="oldname[]"  value="{$vo['name']}"  />
+					<span>对应取值：</span><input type="text" name="value[]" value="{$vo['value']}" /><br>
+					<a href="{:U('deloneno',array('uid'=>$vo['id'],'id'=>$data1['id']))}" >删除该项</a><br>
+				</foreach>
+				</div>
+				<div id="data2">
+				<h3>已做配置</h3>
+				<foreach name="data2" item="vo" key="k">
+
+					<span>判定项：</span><input type="text" name="judgename[]" value="{$vo['judgename']}"/><br>
+					<input type="hidden" name="oldid[]"  value="{$vo['id']}"  />
+					<span>比较符号：</span><input type="text" name="op[]" value="{$vo['op']}"/><br>
+					<span>比较条件：</span><input type="text" name="contion[]" value="{$vo['contion']}" /><br>
+					<span>条件对象：</span><input type="text" name="item[]" value="{$vo['item']}" /><br>
+					<span>比较结果：</span><input type="text" name="result[]" value="{$vo['result']}" /><br>
+					<a href="{:U('delone',array('uid'=>$vo['id'],'id'=>$data1['id']))}" >删除该项</a><br>
+
+				</foreach>
+				</div>
+				<button type="submit">修改</button>
+				</form>
+				<button class="non"onclick="openadd1()">添加非判定项</button><button onclick="openadd2()">添加判定项</button>
+				<div id="add1con">
+				<form action="{:U('addnojudge',array('uid'=>$data1['id']))}" method="post">
+					<span>非判定项：</span><input type="text" name="name"><br>
+					<span>对应取值：</span><input type="text" name="value" /><br>
+					<button type="submit">添加</button>
+				</form>
+				</div>
+				<div id="add2con">
+					<form action="{:U('addjudge',array('id'=>$data1['id']))}" method="post">
+						<span>判定项：</span><input type="text" name="judgename" /><br>
+						<span>比较符号：</span><input type="text" name="op" /><br>
+						<span>比较条件：</span><input type="text" name="contion"/><br>
+						<span>条件对象：</span><input type="text" name="item" /><br>
+						<span>比较结果：</span><input type="text" name="result" /><br>
+						<button type="submit">添加</button>	
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+<include file="Public:footer"/>
+<script type="text/javascript">
+	function dis(){
+	var arr1=<?php echo json_encode($data3);?>;
+	var arr2=<?php echo json_encode($data2);?>;
+	var div1=document.getElementById('data1');
+	var div2=document.getElementById('data2')
+	var a=document.getElementById('add1con');
+	var b=document.getElementById('add2con');
+	a.style.display="none";
+	b.style.display="none";
+	if (arr1.length==0) {
+		div1.style.display="none";
+	}
+	if (arr2.length==0) {
+		div2.style.display="none";
+	}
+	}
+	window.onload=dis;
+	function openadd1(){
+		var a=document.getElementById('add1con');
+		if (a.style.display==='block'){
+			a.style.display="none";
+		}else{
+			a.style.display="block";
+		}
+	}
+	function openadd2(){
+		var b=document.getElementById('add2con');
+		if (b.style.display==='block'){
+			b.style.display="none";
+		}else{
+			b.style.display="block";
+		}
+	}
+</script>

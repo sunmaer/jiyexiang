@@ -1,0 +1,65 @@
+[ 2016-05-23T14:20:35+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/1.html
+ERR: 1064:Erreur de syntaxe près de 'WHERE `uid` = 1 AND `name` = '密度'' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_nojudge` SET  WHERE `uid` = 1 AND `name` = '密度'
+
+[ 2016-05-23T16:16:00+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/1.html
+ERR: 1064:Erreur de syntaxe près de 'WHERE `uid` = 1 AND `name` = '密度'' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_nojudge` SET  WHERE `uid` = 1 AND `name` = '密度'
+
+[ 2016-05-23T16:23:14+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/1.html
+ERR: 1064:Erreur de syntaxe près de 'WHERE `uid` = 1 AND `name` = '密度'' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_nojudge` SET  WHERE `uid` = 1 AND `name` = '密度'
+
+[ 2016-05-23T17:31:07+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/7.html
+ERR: 模板不存在:./App/Admin/View/Material/doaltonefor.html
+
+[ 2016-05-23T17:32:25+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/7.html
+ERR: 模板不存在:./App/Admin/View/Material/doaltonefor.html
+
+[ 2016-05-23T17:32:30+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/
+ERR: 模板不存在:./App/Admin/View/Material/doaltonefor.html
+
+[ 2016-05-23T17:32:43+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/doaltonefor/id/3.html
+ERR: 模板不存在:./App/Admin/View/Material/doaltonefor.html
+
+[ 2016-05-23T17:37:15+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/%7B$id%7D.html
+ERR: 1064:Erreur de syntaxe près de '} ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id={$id} ) LIMIT 1  
+
+[ 2016-05-23T17:37:47+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/%7B$id%7D.html
+ERR: 1064:Erreur de syntaxe près de '} ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id={$id} ) LIMIT 1  
+
+[ 2016-05-23T17:37:48+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/%7B$id%7D.html
+ERR: 1064:Erreur de syntaxe près de '} ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id={$id} ) LIMIT 1  
+
+[ 2016-05-23T17:37:50+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/$id.html
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id=$id ) LIMIT 1  
+
+[ 2016-05-23T17:39:22+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/$id.html
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id=$id ) LIMIT 1  
+
+[ 2016-05-23T17:39:23+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/$id.html
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id=$id ) LIMIT 1  
+
+[ 2016-05-23T17:39:23+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/$id.html
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id=$id ) LIMIT 1  
+
+[ 2016-05-23T17:39:23+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/altonefor/id/$id.html
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `jyx_formulate` WHERE ( id=$id ) LIMIT 1  
+
+[ 2016-05-23T21:39:54+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/addnojudge/uid/2.html
+ERR: 非法操作:addnojudge
+
+[ 2016-05-23T22:21:55+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/deloneju.html
+ERR: 非法操作:deloneju
+
+[ 2016-05-23T22:28:06+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/delonenoju/uid/1/id/1.html
+ERR: 非法操作:delonenoju
+

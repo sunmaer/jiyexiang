@@ -1,0 +1,12 @@
+[ 2016-06-15T15:51:49+08:00 ] ::1 /jiyexiang/User/checkemail.jyx?email=596527851%40qq.com&id=41
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '596527851@qq.com' AND `id` <> '41' LIMIT 1   [ RunTime:0.0292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002403s ]
+

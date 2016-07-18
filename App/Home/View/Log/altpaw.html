@@ -1,0 +1,25 @@
+<include file="Public:header"/>
+	<form id="user_info" action="{:U('Log/doaltpaw',array('id'=>$id))}" method="post">
+	<div class="item">
+		<label for="user-newpwd">
+			<div class="user-input">
+				<span class="icon3 icon-newpwd"></span>
+				<span class="info-word">新密码</span>
+			</div>
+		</label>
+		<input type="password" id="user-newpwd" name="password1" />
+	</div>
+	<div class="item">
+		<label for="user-connewpwd">
+			<div class="user-input">
+				<span class="icon3 icon-connewpwd"></span>
+				<span class="info-word">确认密码</span>
+			</div>
+		</label>
+		<input type="password" id="user-connewpwd" name="password2" />
+	</div>
+		<input type="submit" value="修&nbsp;&nbsp;改">
+	</form>
+</div>
+</div>
+<include file="Public:footer"/>

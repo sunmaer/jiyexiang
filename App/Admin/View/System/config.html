@@ -1,0 +1,58 @@
+<include file="Public:header"/>
+	<div class="adduser-wrapper">
+		<p class="title">版块说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />
+			你可以在本版块进行seo设置，设置网站域名、网站标题、网站关键字。
+		</div>
+	</div>
+	<div class="adduser-contents">
+		<p class="title">seo设置</p>
+		<div class="info">
+				<div>
+				<form action="{:U('System/altsite')}" method="post" class="adduser-form">
+					<div class="adduser-item">
+						<label for="url">
+							<div class="adduser-info">
+								<span class="adduser-icon icon-url"></span>
+								<span class="adduser-info-word">网站域名</span>
+							</div>
+						</label>
+						<input type="text" name="url" id="url"  placeholder="格式：baidu.com"></input>
+					</div>
+					<div class="adduser-item">
+						<label for="title">
+							<div class="adduser-info">
+								<span class="adduser-icon icon-title"></span>
+								<span class="adduser-info-word">网站标题</span>
+							</div>
+						</label>
+						<input type="text" name="title" id="title" value="{$data['title']}" />
+					</div>
+					<div class="adduser-item">
+						<label for="keywords">
+							<div class="adduser-info">
+								<span class="adduser-icon icon-keywords"></span>
+								<span class="adduser-info-word">网站关键字</span>
+							</div>
+						</label>
+						<input type="text" name="keywords" id="keywords" value="{$data['keywords']}" />
+					</div>
+					<div class="adduser-item">
+						<label for="description">
+							<div class="adduser-info">
+								<span class="adduser-icon icon-description"></span>
+								<span class="adduser-info-word">网站描述</span>
+							</div>
+						</label>
+						<input type="text" name="description" id="description" value="{$data['description']}" />
+					</div>
+					<div>
+						<input type="submit" value="确认修改">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<include file="Public:footer"/>

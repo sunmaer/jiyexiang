@@ -1,0 +1,259 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+    border: 0;
+	font: 15px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	color: #6c6c6c;
+}
+body {
+	width: 100%;
+	min-height: 300px;
+	background-color: #f9f9f9;
+}
+
+/*<-----------------登录框界面------------------->*/
+#container {
+	width: 35%;
+	margin: 0 auto;
+	background-color: #f1f1f1;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-top: 130px;
+	position: relative;
+	overflow: hidden;
+}
+#form p,#form p span {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 120px;
+	font-size: 25px;
+	color: #404040;
+	letter-spacing: 1px;
+}
+/*表单错误提示信息*/
+.error{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 60px;
+	color:red;
+}
+.item {
+	position: relative;
+	margin-bottom: 20px;
+}
+#form input[type="text"],input[type="password"] {
+	box-sizing: border-box;
+	display: block;
+	width: 80%;
+	height: 45px;
+	font-size: 17px;
+	padding-left: 60px;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	color: #404040;
+}
+#form a {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+#form a:hover {
+	color: #13D01B;
+}
+.forpwd {
+	margin-left: 10%;
+	float: left;
+}
+.freereg {
+	margin-right: 10%;
+	float: right;
+}
+input[type="submit"] {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 30px auto;
+	height: 40px;
+	line-height: 40px;
+	background-color: #13D01B;
+	font-size: 17px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #37BC3D;
+}
+
+@font-face {
+     font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?3ut2yt');
+    src:    url('../fonts/icomoon.eot?3ut2yt#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?3ut2yt') format('truetype'),
+        url('../fonts/icomoon.woff?3ut2yt') format('woff'),
+        url('../fonts/icomoon.svg?3ut2yt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon{
+	position: absolute;
+	font-size: 25px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+    background-color: #ddd;
+    color: #fff;
+    width: 45px;
+	height: 45px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-left: 10%;
+	border-top: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1.8;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-name:before {
+    content: "\f007";
+}
+.icon-pwd:before {
+    content: "\f023";
+}
+
+/*<----------------------忘记密码页面---------------------->*/
+.icon-regemail:before {
+	content: "\f0e0";
+}
+.forget-pwd {
+	padding-top: 50px;
+}
+
+
+/*css3媒体查询*/
+/*当页面大于1366px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1367px) {
+	#container {
+		width: 40%;
+		margin-top: 200px;
+	}
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1366px) {
+	#container {
+		width: 40%;
+		margin-top: 150px;
+	}
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#container {
+		width: 60%;
+		margin-top: 150px;
+	}
+	
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+	body {
+		background-color: #f1f1f1;
+	}
+	#container {
+		width: 100%;
+		margin-top: 0px;
+		border-radius: 0;
+		border: none;
+	}
+	#form p,#form p span {
+		width: 60%;
+		font-size: 25px;
+	}
+	.error{
+		width: 60%;
+		margin: 0 auto;
+	}
+	#form input[type="text"],input[type="password"] {
+		width: 60%;
+		height: 45px;
+		font-size: 16px;
+	}
+	.forpwd {
+		margin-left: 20%;
+		float: left;
+	}
+	.freereg {
+		margin-right: 20%;
+		float: right;
+	}
+	input[type="submit"] {
+		width: 60%;
+		font-size: 16px;
+	}
+	.icon{
+		margin-left: 20%;
+	}
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+	body {
+		background-color: #f1f1f1;
+	}
+	#container {
+		width: 100%;
+		margin-top: 0px;
+		border-radius: 0;
+		border: none;
+	}
+	#form p,#form p span {
+		width: 90%;
+		font-size: 23px;
+	}
+	.error{
+		width: 90%;
+		margin: 0 auto;
+	}
+	#form input[type="text"],input[type="password"] {
+		width: 90%;
+		height: 45px;
+		font-size: 15px;
+	}
+	.forpwd {
+		margin-left: 5%;
+		float: left;
+	}
+	.freereg {
+		margin-right: 5%;
+		float: right;
+	}
+	input[type="submit"] {
+		width: 90%;
+		font-size: 15px;
+	}
+	.icon{
+		margin-left: 5%;
+	}
+}

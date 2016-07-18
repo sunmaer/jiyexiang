@@ -1,0 +1,6 @@
+[ 2016-05-18T14:12:03+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checklogin.html
+ERR: 模板不存在:./App/Home/View/Public/dispatch_jump.html
+
+[ 2016-05-18T14:13:57+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checklogin.html
+ERR: 模板不存在:./App/Home/View/Admin/Public/dispatch_jump.html
+

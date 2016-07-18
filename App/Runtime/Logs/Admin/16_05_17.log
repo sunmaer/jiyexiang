@@ -1,0 +1,4 @@
+[ 2016-05-17T12:38:36+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+

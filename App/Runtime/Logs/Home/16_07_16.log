@@ -1,0 +1,50 @@
+[ 2016-07-16T14:39:59+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=878131732
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '878131732' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-07-16T14:40:35+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=15927366830
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '15927366830' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-07-16T14:40:43+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=878131732%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '878131732@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2016-07-16T15:29:36+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-07-16T15:29:46+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '23' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+

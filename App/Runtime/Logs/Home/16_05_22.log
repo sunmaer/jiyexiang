@@ -1,0 +1,12 @@
+[ 2016-05-22T14:47:21+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+ERR: 1054:Champ 'status' inconnu dans where clause
+ [ SQL语句 ] : SELECT `price` FROM `jyx_lock` WHERE ( status=1 ) LIMIT 1  
+
+[ 2016-05-22T20:42:24+08:00 ] ::1 /jiyexiang/index.php/Home/Count/index.html
+ERR: 1146:La table 'jiyexiang.jyx_color' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_color`
+
+[ 2016-05-22T20:43:02+08:00 ] ::1 /jiyexiang/index.php/Home/Count/index.html
+ERR: 1146:La table 'jiyexiang.jyx_color' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_color`
+

@@ -1,0 +1,95 @@
+<include file="Public:header"/>
+	<div class="wrapper">
+		<p class="title">版块说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />
+			你可以在本版块根据注册账户、客户姓名、公司名称或者日期查询报价，还可以导出当前报价表，导出格式为excel表。
+		</div>
+	</div>
+	<form action="{:U('Count/index')}" method="post">	
+		<div class="sub">
+		  <label class="baojia-date"><span class="icon-date"></span></label><select id="year1" onchange="toData()">
+		  <foreach name="year" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>				
+		  <select id="month1" onchange="toData()">
+		  <foreach name="month" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>				
+		  <select id="data1" onchange="toData()">
+		  <foreach name="date" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>		
+		<input id="startdate" style="display: none;" name="date1" type="text" >
+
+		<label>—</label>				
+		  <select id="year2" onchange="toData2()">
+		   <foreach name="year" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>				
+		  <select id="month2" onchange="toData2()">
+		  <foreach name="month" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>				
+		  <select id="data2" onchange="toData2()">
+		   <foreach name="date" item="vo" key="k">
+			 <option value="{$vo}">{$vo}</option>
+		  </foreach>
+		  </select>
+		  <input id="enddate"  style="display: none;"name="date2"type="text">
+		</div>
+		<div class="baojia-search">
+			<span class="icon-search"></span><input type="text" name="search" placeholder="输入客户姓名或公司名称"></input><input type="submit" value="搜索" />
+		</div>
+	</form>
+	<table class="baojia-table">
+		<tr>
+			<th class="alluser-name">客户姓名</th>
+			<th class="compnamehidden">公司名</th>
+			<th class="widthhidden">箱宽</th>
+			<th class="heighthidden">箱高</th>
+			<th class="depthhidden">箱深</th>
+			<th class="boxhidden">箱厚</th>
+			<th class="doorhidden">门厚</th>
+			<th class="blockhidden">板厚</th>
+			<th>单价</th>
+			<th>数量</th>
+			<th>总价</th>
+			<th class="baojia-time timehidden">日期</th>
+			<th>操作</th>
+		</tr>
+		<foreach name="data" item="vo" key="k">
+		<tr>
+			<td>{$vo['name']}</td>
+			<td class="compnamehidden">{$vo['companyname']}</td>
+			<td class="widthhidden">{$vo['width']}</td>
+			<td class="heighthidden">{$vo['height']}</td>
+			<td class="depthhidden">{$vo['depth']}</td>
+			<td class="boxhidden">{$vo['box_depth']}</td>
+			<td class="doorhidden">{$vo['door_depth']}</td>
+			<td class="blockhidden">{$vo['block_depth']}</td>
+			<td>{$vo['unit_price']}</td>
+			<td>{$vo['count']}</td>
+			<td>{$vo['total']}</td>
+			<td class="timehidden">{$vo.time|date = "Y-m-d",###}</td>
+			<td><a href="{:U('Count/del',array('id'=>$vo['id']))}"><span class="alluser-icon icon-delete" title="删除该条订单" ></span></a></td>
+		</tr>
+		</foreach>
+	</table>
+	<div class="tfoot">
+			<div class="export">
+				<a href="{:U('Tabexcel/index',array('date1'=>$where['time']['0']['1'],'$date2'=>$where['time']['1']['1'],'search'=>$where['name|companyname|companyname']['1']))}">
+					<span class="alluser-icon icon-export" title="导出当前报价表"></span><span class="alluser-icon icon-xls" title="导出当前报价表"></span>
+				</a>
+			</div>
+			<div class="page">
+				{$page}
+			</div>
+		</div>
+<include file="Public:footer"/>

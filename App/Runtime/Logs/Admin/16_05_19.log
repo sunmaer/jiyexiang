@@ -1,0 +1,30 @@
+[ 2016-05-19T19:15:41+08:00 ] ::1 /jiyexiang/index.php/Admin/System/dataBackups.html
+ERR: 非法操作:dataBackups
+
+[ 2016-05-19T19:30:03+08:00 ] ::1 /jiyexiang/index.php/Admin/System/clear.html
+ERR: 非法操作:clear
+
+[ 2016-05-19T19:34:55+08:00 ] ::1 /jiyexiang/index.php/Admin/Maintain/doBackups.html
+ERR: 无法加载控制器:Maintain
+
+[ 2016-05-19T19:35:23+08:00 ] ::1 /jiyexiang/index.php/Admin/System/doBackups.html
+ERR: Think\Controller:myRelust方法不存在！
+
+[ 2016-05-19T19:35:40+08:00 ] ::1 /jiyexiang/index.php/Admin/System/doBackups.html
+ERR: Think\Controller:myRelust方法不存在！
+
+[ 2016-05-19T19:38:16+08:00 ] ::1 /jiyexiang/index.php/Admin/Maintain/delData/name/2016-05-19%281463657723%29.sql.html
+ERR: 无法加载控制器:Maintain
+
+[ 2016-05-19T19:39:48+08:00 ] ::1 /jiyexiang/index.php/Admin/Maintain/delData/name/2016-05-19%281463657723%29.sql.html
+ERR: 无法加载控制器:Maintain
+
+[ 2016-05-19T19:39:49+08:00 ] ::1 /jiyexiang/index.php/Admin/Maintain/delData/name/2016-05-19%281463657723%29.sql.html
+ERR: 无法加载控制器:Maintain
+
+[ 2016-05-19T19:39:49+08:00 ] ::1 /jiyexiang/index.php/Admin/Maintain/delData/name/2016-05-19%281463657723%29.sql.html
+ERR: 无法加载控制器:Maintain
+
+[ 2016-05-19T19:39:52+08:00 ] ::1 /jiyexiang/index.php/Admin/System/delData/name/2016-05-19%281463657723%29.sql.html
+ERR: 非法操作:delData
+

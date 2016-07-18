@@ -1,0 +1,110 @@
+[ 2016-05-28T10:18:24+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:18:43+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:18:50+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:08+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:32+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:33+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:33+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:34+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:34+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:34+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:34+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:34+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:35+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:20:38+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:21:09+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:21:10+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T10:21:14+08:00 ] ::1 /jiyexiang/index.php/Admin/User/adduser.html
+ERR: Think\Controller:diaplay方法不存在！
+
+[ 2016-05-28T11:02:33+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/alterInfo.html
+ERR: 非法操作:alterInfo
+
+[ 2016-05-28T11:02:58+08:00 ] ::1 /jiyexiang/index.php/Admin/Admin/alterInfo.html
+ERR: 非法操作:alterInfo
+
+[ 2016-05-28T11:03:15+08:00 ] ::1 /jiyexiang/index.php/Admin/Admin/alterInfo.html
+ERR: 非法操作:alterInfo
+
+[ 2016-05-28T11:03:17+08:00 ] ::1 /jiyexiang/index.php/Admin/Admin/alterInfo.html
+ERR: 非法操作:alterInfo
+
+[ 2016-05-28T12:33:16+08:00 ] ::1 /jiyexiang/index.php/Admin/Index/adduser.html
+ERR: 非法操作:adduser
+
+[ 2016-05-28T12:35:54+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove/id/24.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T14:42:03+08:00 ] ::1 /jiyexiang/index.php/Admin/User/altuser.html
+ERR: 模板不存在:./App/Admin/View/User/altuser.html
+
+[ 2016-05-28T14:42:33+08:00 ] ::1 /jiyexiang/index.php/Admin/User/altuser.html
+ERR: 非法操作:altuser
+
+[ 2016-05-28T16:42:15+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/formulate.html
+ERR: 模板不存在:./App/Admin/View/Material/formulate.html
+
+[ 2016-05-28T16:42:24+08:00 ] ::1 /jiyexiang/index.php/Admin/Material/formulate.html
+ERR: 模板不存在:./App/Admin/View/Material/formulate.html
+
+[ 2016-05-28T17:02:08+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T17:02:16+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T17:03:08+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T17:10:08+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T17:11:08+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T17:11:11+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+
+[ 2016-05-28T19:56:54+08:00 ] ::1 /jiyexiang/index.php/Admin/User/doapprove.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `jyx_user` SET `status`='1' WHERE `id` IN ()
+

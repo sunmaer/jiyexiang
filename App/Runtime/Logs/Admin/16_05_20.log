@@ -1,0 +1,27 @@
+[ 2016-05-20T17:23:29+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation 'like'
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `name` LIKE '%华农%' OR `time` LIKE '%华农%' ) 
+
+[ 2016-05-20T17:23:38+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation 'like'
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `name` LIKE '%华农%' OR `time` LIKE '%华农%' ) 
+
+[ 2016-05-20T17:24:02+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation 'like'
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `time` LIKE '%华农%' ) 
+
+[ 2016-05-20T17:24:50+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation 'like'
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `companyname` LIKE '%华农%' OR `time` LIKE '%华农%' ) 
+
+[ 2016-05-20T17:24:58+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation 'like'
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%吴桦%' OR `companyname` LIKE '%吴桦%' OR `companyname` LIKE '%吴桦%' OR `time` LIKE '%吴桦%' ) 
+
+[ 2016-05-20T17:26:21+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 表达式错误:like binary 
+
+[ 2016-05-20T17:30:14+08:00 ] ::1 /jiyexiang/index.php/Admin/Count/index.html
+ERR: 1271:Illegal mix of collations for operation '='
+ [ SQL语句 ] : SELECT * FROM `jyx_report_forms` WHERE ( `name` LIKE '%吴桦%' OR `companyname` LIKE '%吴桦%' OR `companyname` LIKE '%吴桦%' ) AND `time` = '吴桦' 
+

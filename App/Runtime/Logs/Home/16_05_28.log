@@ -1,0 +1,368 @@
+[ 2016-05-28T20:14:06+08:00 ] ::1 /jiyexiang/index.php/Home/Count/altdata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jyx_formulate` [ RunTime:0.0157s ]
+SQL: SELECT `id` FROM `jyx_formulate` WHERE `formulate` LIKE '%线夹%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jyx_formulate` WHERE `status` = 1 AND `id` <> '5' ORDER BY corder asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jyx_nojudge` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0152s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=1 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 215 行.
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 2 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=2 )  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '锁数量' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '锁单价' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0004s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 3 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=3 )  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '封条单价' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 4 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 6 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=6 )  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '喷塑单价' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0005s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 7 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=7 )  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '数量' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 9 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=9 )  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '附件' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 11 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=11 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 12 )  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=12 )  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '利润点' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0005s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `jyx_count` WHERE `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '1790' AND `xianjia` = '不要' AND `mft_type` = '机浇' AND `unit_price` = 581  [ RunTime:0.0008s ]
+
+[ 2016-05-28T20:14:15+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_formulate` [ RunTime:0.0164s ]
+SQL: SELECT `id` FROM `jyx_formulate` WHERE `formulate` LIKE '%线夹%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_formulate` WHERE `status` = 1 AND `id` <> '5' ORDER BY corder asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jyx_nojudge` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0161s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=1 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 215 行.
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 2 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=2 )  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '锁数量' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '锁数量'  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '锁单价' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0005s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '锁单价'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 3 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=3 )  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '封条单价' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0005s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '封条单价'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 4 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=4 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 6 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=6 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '喷塑单价' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0004s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '喷塑单价'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 7 )  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=7 )  [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '数量' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0004s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '数量'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=8 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 9 )  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=9 )  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '附件' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0003s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '附件'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 11 )  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=11 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jyx_nojudge` WHERE ( uid = 12 )  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `judgename` FROM `jyx_judge` WHERE ( uid=12 )  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `op` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `item` FROM `jyx_judge` WHERE `judgename` = '利润点' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `contion` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0005s ]
+SQL: SELECT `result` FROM `jyx_judge` WHERE `judgename` = '利润点'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `jyx_count` WHERE `height` = 1600 AND `width` = 300 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '1790' AND `xianjia` = '不要' AND `mft_type` = '机浇' AND `unit_price` = 844  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\jiyexiang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\jiyexiang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: altis E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 263 行.
+SQL: INSERT INTO `jyx_count` (`height`,`width`,`depth`,`box_depth`,`door_depth`,`block_depth`,`locktype`,`type`,`color`,`xianjia`,`mft_type`,`unit_price`,`total`,`count`,`uid`,`time`) VALUES ('1600','300','1200','3','3','2','铁锁','D','1790','不要','机浇','844','1689','2','38','1464437655') [ RunTime:0.1034s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-05-28T20:14:20+08:00 ] ::1 /jiyexiang/index.php/Home/Count/delonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0769s ]
+SQL: DELETE FROM `jyx_count` WHERE `height` = 1600 AND `width` = 300 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '1790' AND `xianjia` = '不要' AND `mft_type` = '机浇' AND `uid` = 38 [ RunTime:0.0975s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: totalnum E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: totalprice E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001083s ]
+
+[ 2016-05-28T20:14:21+08:00 ] ::1 /jiyexiang/index.php/Home/Count/showonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '类型'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '锁类型'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '塑粉颜色'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `jyx_count` WHERE `uid` = 38 AND `type` = 'D' AND `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `door_depth` = 3 AND `box_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `color` = '1790' AND `unit_price` = 581 AND `count` = 2 AND `total` = 1162 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-05-28T20:14:21+08:00 ] ::1 /jiyexiang/index.php/Home/Count/delonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0138s ]
+SQL: DELETE FROM `jyx_count` WHERE `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '1790' AND `xianjia` = '不要' AND `mft_type` = '机浇' AND `uid` = 38 [ RunTime:0.0945s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: totalnum E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: totalprice E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-05-28T20:14:22+08:00 ] ::1 /jiyexiang/index.php/Home/Count/showonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '类型'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '锁类型'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '塑粉颜色'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `jyx_count` WHERE `uid` = 38 AND `type` = 'D' AND `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `door_depth` = 3 AND `box_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `color` = '7035' AND `unit_price` = 583 AND `count` = 2 AND `total` = 1167 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-05-28T20:14:22+08:00 ] ::1 /jiyexiang/index.php/Home/Count/delonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0144s ]
+SQL: DELETE FROM `jyx_count` WHERE `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '7035' AND `xianjia` = '要' AND `mft_type` = '机浇' AND `uid` = 38 [ RunTime:0.0494s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: totalnum E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: totalprice E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-05-28T20:14:23+08:00 ] ::1 /jiyexiang/index.php/Home/Count/showonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '类型'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '锁类型'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '塑粉颜色'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `jyx_count` WHERE `uid` = 38 AND `type` = 'D' AND `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `door_depth` = 3 AND `box_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `color` = '7035' AND `unit_price` = 581 AND `count` = 2 AND `total` = 1162 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-05-28T20:14:24+08:00 ] ::1 /jiyexiang/index.php/Home/Count/delonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0174s ]
+SQL: DELETE FROM `jyx_count` WHERE `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '7035' AND `xianjia` = '不要' AND `mft_type` = '机浇' AND `uid` = 38 [ RunTime:0.0487s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: totalnum E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: totalprice E:\wamp\www\jiyexiang\App\Home\Controller\CountController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-05-28T20:14:25+08:00 ] ::1 /jiyexiang/index.php/Home/Count/showonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jyx_judge` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '类型'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '锁类型'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jyx_judge` WHERE `item` = '塑粉颜色'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `jyx_count` WHERE `uid` = 38 AND `type` = 'D' AND `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `door_depth` = 3 AND `box_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `color` = '7035' AND `unit_price` = 581 AND `count` = 2 AND `total` = 1162 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-05-28T20:14:25+08:00 ] ::1 /jiyexiang/index.php/Home/Count/delonedata.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jyx_count` [ RunTime:0.0139s ]
+SQL: DELETE FROM `jyx_count` WHERE `height` = 1600 AND `width` = 13 AND `depth` = 1200 AND `box_depth` = 3 AND `door_depth` = 3 AND `block_depth` = 2 AND `locktype` = '铁锁' AND `type` = 'D' AND `color` = '7035' AND `xianjia` = '不要' AND `mft_type` = '手工' AND `uid` = 38 [ RunTime:0.0586s ]
+SQL: SELECT DISTINCT  * FROM `jyx_count` WHERE ( uid = 38 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-05-28T20:15:56+08:00 ] ::1 /jiyexiang/index.php/Home/Count/beforecount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+SQL: SHOW COLUMNS FROM `jyx_site` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `jyx_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-05-28T20:18:55+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkuser.html?user_rname=%E6%88%91%E6%98%AF%E9%99%88%E8%BF%A6%E5%8D%97%E3%80%81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `jyx_user` WHERE `username` = '我是陈迦南、' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002870s ]
+
+[ 2016-05-28T20:19:19+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0726s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2016-05-28T20:19:59+08:00 ] ::1 /jiyexiang/index.php/Home/Log/checkemail.html?email=524449630%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004413s ]
+SQL: SHOW COLUMNS FROM `jyx_user` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `jyx_user` WHERE `email` = '524449630@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002748s ]
+

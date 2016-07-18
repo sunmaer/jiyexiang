@@ -1,0 +1,120 @@
+<include file="Public:header"/>
+	<div class="adduser-wrapper">
+		<p class="title">版块说明</p>
+		<div class="info">
+			你好！欢迎使用ZeroDegree后台管理系统管理“凡创电气基业箱报价系统”！
+			<br />
+			你可以在本版块添加用户，添加之前请完善用户信息。
+		</div>
+	</div>
+	<div class="adduser-contents">
+		<p class="title">添加用户</p>
+		<div class="info">
+			<form class="adduser-form" id="adduserForm" action="{:U('doadduser')}" method="post">
+			<div class="adduser-item">
+				<label for="user_rname">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-rname"></span>
+						<span class="adduser-info-word"><em>*</em>注册账号</span>
+					</div>
+				</label>
+				<input type="text" id="user_rname" name="user_rname" placeholder="注册账号为 7-11 个数字" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_name">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-name"></span>
+						<span class="adduser-info-word"><em>*</em>客户姓名</span>
+					</div>
+				</label>
+				<input type="text" id="user_name" name="user_name" placeholder="客户姓名至少为两个字符" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_pwd">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-pwd"></span>
+						<span class="adduser-info-word"><em>*</em>登录密码</span>
+					</div>
+				</label>
+				<input type="password" id="user_pwd" name="user_pwd" placeholder="登录密码为 6-16 个字符"/>
+			</div>
+			<div class="adduser-item">
+				<label for="user_confirmpwd">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-confirmpwd"></span>
+						<span class="adduser-info-word"><em>*</em>确认密码</span>
+					</div>
+				</label>
+				<input type="password" id="user_confirmpwd" name="user_confirmpwd" placeholder=""/>
+			</div>
+			<div class="adduser-item">
+				<label for="user_comname">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-comname"></span>
+						<span class="adduser-info-word">公司名称</span>
+					</div>
+				</label>
+				<input type="text" id="user_comname" name="companyname" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_comphone">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-comphone"></span>
+						<span class="adduser-info-word">公司电话</span>
+					</div>
+				</label>
+				<input type="text" name="companyphone" id="user_comphone" />
+			</div>
+			<div class="adduser-item">
+				<label for="adduser-user_address">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-address"></span>
+						<span class="adduser-info-word">地址</span>
+					</div>
+				</label>
+				<input type="text" name="address" id="user_address" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_phone">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-phone"></span>
+						<span class="adduser-info-word"><em>*</em>手机号码</span>
+					</div>
+				</label>
+				<input type="text" id="user_phone" name="user_phone" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_email">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-email"></span>
+						<span class="adduser-info-word"><em>*</em>邮箱</span>
+					</div>
+				</label>
+				<input type="text" id="user_email" name="user_email" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_qq">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-qq"></span>
+						<span class="adduser-info-word">QQ号</span>
+					</div>
+				</label>
+				<input type="text" name="qq" id="user_qq" />
+			</div>
+			<div class="adduser-item">
+				<label for="user_weixin">
+					<div class="adduser-info">
+						<span class="adduser-icon icon-weixin"></span>
+						<span class="adduser-info-word">微信号</span>
+					</div>
+				</label>
+				<input type="text" name="wechat" id="user_weixin" />
+			</div>
+			<div>
+				<input type="submit" value="立即添加">
+			</div>
+			<div class="clear"></div>
+			</form>
+		</div>
+	</div>
+<include file="Public:footer"/>

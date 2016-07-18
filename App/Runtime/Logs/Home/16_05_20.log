@@ -1,0 +1,14 @@
+[ 2016-05-20T11:34:56+08:00 ] ::1 /jiyexiang/index.php/Home/Count/count.html
+ERR: 1146:La table 'jiyexiang.jyx_gluten' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_gluten`
+
+[ 2016-05-20T11:35:31+08:00 ] ::1 /jiyexiang/index.php/Home/Count/count.html
+ERR: 1146:La table 'jiyexiang.jyx_gluten' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `jyx_gluten`
+
+[ 2016-05-20T13:25:18+08:00 ] ::1 /jiyexiang/index.php/Home/Count/count.html
+ERR: 参数错误或者未定义:att
+
+[ 2016-05-20T13:25:36+08:00 ] ::1 /jiyexiang/index.php/Home/Count/count.html
+ERR: 参数错误或者未定义:attprice
+
